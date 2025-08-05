@@ -1,0 +1,26 @@
+.detail-image {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#detail-portfolio .wrapper {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#detail-portfolio h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+#detail-portfolio .skill,
+#detail-portfolio .description {
+  margin: 20px auto;
+  max-width: 700px;
+  text-align: justify;
+  line-height: 1.6;
+}

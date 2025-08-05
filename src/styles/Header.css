@@ -1,0 +1,58 @@
+/* Header Container */
+header {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Jumbotron Style */
+.header-jumbotron {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Profile Picture */
+.header-jumbotron img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%; /* Fokuskan wajah ke tengah-atas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* Nama Lengkap */
+.header-jumbotron h3 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: #222;
+}
+
+/* Profesi atau Role */
+.header-jumbotron p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Social Media Container */
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+/* Icon Style */
+.socialMedia a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+  color: #0072b1; /* Biru LinkedIn atau efek hover lain */
+}
